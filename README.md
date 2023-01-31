@@ -1,1 +1,13 @@
-# GOTU
+# Implementation for "Generalization on the Unseen, Logic Reasoning and Degree Curriculum"
+
+This is an implementation for "Generalization on the Unseen, Logic Reasoning and Degree Curriculum" in the PyTorch framework. 
+
+### Contents:
+
+- `token_transformer.py` contains the code of the Transformer model used in the experiments. 
+- `models.py` contains the code for the rest of the models including MLP, mean-field, and random feaures model. 
+- `utilities.py` includes some helper functions for the main file, e.g., computation of Fourier coefficients.  
+- `main.py` is the main file for the experiments.
+- `examples.py` contains the definitions of the tasks used in the paper.  
+- `script.sh` includes the commands for generating the results presented in the paper. Note that the hyperparameters used for different tasks/models is also included in this file. 
+
